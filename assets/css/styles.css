@@ -1,0 +1,41 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.cuadro-azul{
+    width: 150px;
+    height: 150px;
+    background-color: #4545d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /*Para hacerlo un circulo*/
+}
+.cuadro-rojo{
+    width: 150px;
+    height: 150px;
+    background-color: #ad2d2d;
+    display: flex;
+    justify-content: center;/*Alinear a la mitad de forma horizontal*/
+    align-items: center; /*Alinear a la mitad de forma vertical*/
+    transform: rotate(45deg);
+}
+.cuadro-verde{
+    width: 150px;
+    height: 150px;
+    background-color: #32d84e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms-container{
+    margin: 40px;
+    display: flex;
+    /*flex-direction: row-reverse; "Para verlos como fila en reversa*/
+    /*flex-direction: column; "Para ver como una columna*/
+    flex-wrap: wrap; /*Hacer que los elementos pasen a la parte de abajo*/
+    justify-content: center; /* alinear los elementos de forma horizontal*/
+}
